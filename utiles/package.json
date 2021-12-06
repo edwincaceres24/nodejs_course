@@ -1,0 +1,20 @@
+{
+  "name": "utiles",
+  "version": "1.0.0",
+  "description": "For academyc purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "javascript",
+    "libraries",
+    "node"
+  ],
+  "author": "Edwin Cáceres",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "moment": "^2.29.1"
+  }
+}
