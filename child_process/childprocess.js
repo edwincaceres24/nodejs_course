@@ -35,6 +35,6 @@ const input=spawn('wc')
 
 process.stdin.pipe(input.stdin)
 
-/*input.stdout.on('data',(data)=>{
+input.stdout.on('data',(data)=>{
        console.log(`Child sdtout using pipe: ${data}`)
-	 })*/
+	 })
